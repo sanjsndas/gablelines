@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About — Gableline Home Concepts</title>
+  <meta name="description" content="About Gableline Home Concepts — an independent editorial publication covering interior design, architecture, materials, and modern homes.">
+  <link rel="canonical" href="https://www.gablelinehome.com/about.html">
+  <!-- Open Graph -->
+  <meta property="og:title" content="About — Gableline Home Concepts">
+  <meta property="og:description" content="In-depth articles on interior design, architecture, materials, space planning, lighting, and modern homes.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.gablelinehome.com/about.html">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&h=630&fit=crop">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Fonts & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <style>
+    /* ---------- RESET & GLOBAL ---------- */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #fcfaf7;
+      color: #2c2c2c;
+      line-height: 1.6;
+      padding: 0 1rem;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    /* ---------- TYPOGRAPHY ---------- */
+    h1, h2, h3, h4 {
+      font-family: 'Playfair Display', serif;
+      font-weight: 600;
+      line-height: 1.2;
+      letter-spacing: -0.01em;
+    }
+
+    h1 {
+      font-size: 3.2rem;
+    }
+
+    h2 {
+      font-size: 2rem;
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+      border-bottom: 2px solid #eae5df;
+      padding-bottom: 0.5rem;
+    }
+
+    h3 {
+      font-size: 1.5rem;
+      margin-top: 1.8rem;
+      margin-bottom: 0.8rem;
+    }
+
+    p {
+      margin-bottom: 1.2rem;
+      font-size: 1.05rem;
+      color: #3a3a3a;
+    }
+
+    .article-body p {
+      font-size: 1.08rem;
+      line-height: 1.8;
+    }
+
+    /* ---------- LAYOUT ---------- */
+    .container {
+      max-width: 1300px;
+      margin: 0 auto;
+      background: #ffffff;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.02);
+      padding: 0 2rem;
+    }
+
+    /* ---------- HEADER ---------- */
+    .blog-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1.8rem 0;
+      border-bottom: 1px solid #e0dbd4;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .logo-mark {
+      width: 40px;
+      height: 40px;
+      background: #2c2c2c;
+      color: #fcfaf7;
+      font-family: 'Playfair Display', serif;
+      font-weight: 700;
+      font-size: 1.4rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 2px;
+      transform: rotate(2deg);
+    }
+
+    .logo-text {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.6rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      color: #1e1e1e;
+    }
+
+    .logo-text span {
+      font-weight: 400;
+      font-style: italic;
+      color: #7a6a5a;
+    }
+
+    .main-nav {
+      display: flex;
+      gap: 2rem;
+      font-size: 0.95rem;
+      font-weight: 500;
+      color: #4a4a4a;
+      flex-wrap: wrap;
+      list-style: none;
+    }
+
+    .main-nav a {
+      transition: color 0.2s;
+      border-bottom: 1px solid transparent;
+      padding-bottom: 2px;
+    }
+
+    .main-nav a:hover {
+      color: #1e1e1e;
+      border-bottom-color: #1e1e1e;
+    }
+
+    .main-nav a.active {
+      color: #1e1e1e;
+      border-bottom-color: #9b7b5c;
+      font-weight: 600;
+    }
+
+    /* ---------- ABOUT PAGE CONTENT ---------- */
+    .about-hero {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 3rem;
+      align-items: center;
+      padding: 3rem 0 2rem;
+      border-bottom: 1px solid #eae5df;
+    }
+
+    .about-hero h1 {
+      margin-bottom: 1.5rem;
+      line-height: 1.1;
+    }
+
+    .about-hero .subhead {
+      font-size: 1.2rem;
+      color: #5a5a5a;
+      margin-bottom: 1.5rem;
+      font-weight: 300;
+    }
+
+    .about-hero-image img {
+      width: 100%;
+      height: 420px;
+      object-fit: cover;
+      border-radius: 6px;
+      box-shadow: 0 20px 30px rgba(0, 0, 0, 0.05);
+    }
+
+    .about-mission {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 3rem;
+      padding: 3rem 0;
+      border-bottom: 1px solid #eae5df;
+    }
+
+    .mission-text h2 {
+      border-bottom: none;
+      margin-top: 0;
+      font-size: 2rem;
+    }
+
+    .mission-text p {
+      font-size: 1.08rem;
+      line-height: 1.8;
+    }
+
+    .mission-values {
+      background: #f8f5f1;
+      padding: 2rem;
+      border-radius: 6px;
+    }
+
+    .mission-values h3 {
+      margin-top: 0;
+      font-size: 1.3rem;
+      margin-bottom: 1.2rem;
+    }
+
+    .mission-values ul {
+      list-style: none;
+    }
+
+    .mission-values li {
+      margin-bottom: 1.2rem;
+      padding-left: 1.8rem;
+      position: relative;
+      font-size: 0.98rem;
+      color: #3a3a3a;
+    }
+
+    .mission-values li::before {
+      content: "◆";
+      position: absolute;
+      left: 0;
+      color: #9b7b5c;
+      font-size: 0.8rem;
+      top: 0.25rem;
+    }
+
+    .team-section {
+      padding: 3rem 0;
+      border-bottom: 1px solid #eae5df;
+    }
+
+    .team-section h2 {
+      border-bottom: none;
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    .team-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2.5rem;
+    }
+
+    .team-card {
+      background: #ffffff;
+      border: 1px solid #ede8e2;
+      border-radius: 6px;
+      padding: 2rem 1.5rem;
+      text-align: center;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .team-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.05);
+    }
+
+    .team-avatar {
+      width: 90px;
+      height: 90px;
+      background: #d6cfc7;
+      border-radius: 50%;
+      margin: 0 auto 1.2rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Playfair Display', serif;
+      font-size: 2.2rem;
+      color: #4a4a4a;
+      font-weight: 600;
+    }
+
+    .team-card h3 {
+      margin-top: 0;
+      font-size: 1.3rem;
+      margin-bottom: 0.25rem;
+    }
+
+    .team-role {
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: #9b7b5c;
+      font-weight: 600;
+      margin-bottom: 1rem;
+    }
+
+    .team-bio {
+      font-size: 0.92rem;
+      color: #5a5a5a;
+      line-height: 1.6;
+    }
+
+    .stats-bar {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 2rem;
+      padding: 2.5rem 0;
+      text-align: center;
+      border-bottom: 1px solid #eae5df;
+    }
+
+    .stat-item .stat-number {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.4rem;
+      font-weight: 700;
+      color: #2c2c2c;
+      margin-bottom: 0.25rem;
+    }
+
+    .stat-item .stat-label {
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: #7a7a7a;
+    }
+
+    .editorial-note {
+      background: #f8f5f1;
+      border-left: 4px solid #9b7b5c;
+      padding: 2rem;
+      margin: 3rem 0;
+      border-radius: 0 6px 6px 0;
+    }
+
+    .editorial-note p {
+      font-style: italic;
+      font-size: 1.1rem;
+      color: #4a4a4a;
+      margin-bottom: 0;
+      font-family: 'Playfair Display', serif;
+    }
+
+    .editorial-note .attribution {
+      font-style: normal;
+      font-family: 'Inter', sans-serif;
+      font-size: 0.9rem;
+      color: #7a6a5a;
+      margin-top: 0.75rem;
+      font-weight: 500;
+    }
+
+    /* ---------- INFO SECTIONS (reused from home) ---------- */
+    .info-sections {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 2rem;
+      margin: 3rem 0;
+      padding: 2rem 0;
+      border-top: 2px solid #eae5df;
+      border-bottom: 2px solid #eae5df;
+    }
+
+    .info-sections h4 {
+      font-size: 1.1rem;
+      margin-bottom: 0.75rem;
+      font-family: 'Playfair Display', serif;
+    }
+
+    .info-sections p {
+      font-size: 0.9rem;
+      color: #5a5a5a;
+    }
+
+    /* ---------- FOOTER ---------- */
+    .editorial-footer {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 2rem;
+      padding: 2.5rem 0 2rem;
+      border-top: 2px solid #2c2c2c;
+      margin-top: 3rem;
+      font-size: 0.9rem;
+      color: #5a5a5a;
+    }
+
+    .footer-col h4 {
+      font-size: 1rem;
+      font-family: 'Inter', sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 1rem;
+      color: #2c2c2c;
+    }
+
+    .footer-col ul {
+      list-style: none;
+    }
+
+    .footer-col li {
+      margin-bottom: 0.5rem;
+    }
+
+    .footer-col a:hover {
+      color: #9b7b5c;
+    }
+
+    .copyright {
+      text-align: center;
+      padding: 1.5rem 0;
+      font-size: 0.8rem;
+      color: #8a8a8a;
+      border-top: 1px solid #eae5df;
+    }
+
+    /* ---------- RESPONSIVE ---------- */
+    @media (max-width: 1024px) {
+      .about-hero {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+      }
+      .about-hero-image img {
+        height: 300px;
+      }
+      .about-mission {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+      }
+      .team-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .editorial-footer {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .stats-bar {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        padding: 0 1rem;
+      }
+      h1 {
+        font-size: 2.4rem;
+      }
+      .blog-header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .main-nav {
+        gap: 1.2rem;
+        font-size: 0.85rem;
+      }
+      .team-grid {
+        grid-template-columns: 1fr;
+      }
+      .info-sections {
+        grid-template-columns: 1fr;
+      }
+      .editorial-footer {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+      }
+      .stats-bar {
+        grid-template-columns: 1fr 1fr;
+        gap: 1.5rem;
+      }
+      .stat-item .stat-number {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+  <!-- HEADER -->
+  <header class="blog-header">
+    <div class="logo">
+      <div class="logo-mark">G</div>
+      <div class="logo-text">Gableline <span>Home Concepts</span></div>
+    </div>
+    <nav class="main-nav">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html" class="active">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="terms.html">Terms Of Privacy</a></li>
+      <li><a href="privacy.html">Privacy Policy</a></li>
+      <li><a href="cookies.html">Cookies Policy</a></li>
+      <li><a href="disclaimer.html">Disclaimer</a></li>
+      <li><a href="categories.html">Categories</a></li>
+    </nav>
+  </header>
+
+  <!-- ABOUT HERO -->
+  <section class="about-hero">
+    <div class="about-hero-text">
+      <h1>Design that feels<br>like home.</h1>
+      <p class="subhead">Gableline Home Concepts is an independent editorial publication exploring the intersection of interior design, architecture, and the way we live.</p>
+      <p>We believe good design isn't about perfection — it's about intention. Every article we publish is rooted in practical wisdom, evidence-based thinking, and a deep respect for the people who inhabit these spaces.</p>
+    </div>
+    <div class="about-hero-image">
+      <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&h=600&fit=crop" alt="Sunlit modern living space with warm natural materials">
+    </div>
+  </section>
+
+  <!-- STATS BAR -->
+  <div class="stats-bar">
+    <div class="stat-item">
+      <div class="stat-number">150+</div>
+      <div class="stat-label">Articles published</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-number">12</div>
+      <div class="stat-label">Expert contributors</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-number">48k</div>
+      <div class="stat-label">Monthly readers</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-number">6</div>
+      <div class="stat-label">Years of publishing</div>
+    </div>
+  </div>
+
+  <!-- MISSION & VALUES -->
+  <section class="about-mission">
+    <div class="mission-text">
+      <h2>Our mission</h2>
+      <p>To make thoughtful design accessible to everyone — not just those with unlimited budgets or formal training. We translate complex ideas about architecture, materials, and space planning into clear, actionable guidance.</p>
+      <p>We're not here to sell you a trend. We're here to help you understand why certain spaces feel right and how to create that feeling in your own home. Whether you're renovating a kitchen, choosing paint colors, or just curious about how buildings work, Gableline is your companion.</p>
+      <p>We publish in-depth guides, critical essays, and expert editorials. Every piece is researched, fact-checked, and written with care. We disclose affiliate relationships and never accept payment for positive coverage.</p>
+    </div>
+    <div class="mission-values">
+      <h3>What we stand for</h3>
+      <ul>
+        <li><strong>Clarity over jargon</strong> — Design writing should illuminate, not intimidate. We explain the "why" behind every recommendation.</li>
+        <li><strong>Evidence over trends</strong> — We look for data, building science, and historical context before jumping on bandwagons.</li>
+        <li><strong>Sustainability as standard</strong> — We treat environmental responsibility as a baseline, not a niche category.</li>
+        <li><strong>Human-centered spaces</strong> — Great design serves the people who live in it, not the other way around.</li>
+        <li><strong>Independence always</strong> — Our editorial content is never influenced by advertisers or sponsors.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- TEAM SECTION -->
+  <section class="team-section">
+    <h2>The people behind Gableline</h2>
+    <div class="team-grid">
+      <div class="team-card">
+        <div class="team-avatar">EM</div>
+        <h3>Elena Marchetti</h3>
+        <div class="team-role">Editor-in-Chief</div>
+        <p class="team-bio">Elena has written about architecture and interiors for over 15 years. Her work has appeared in Dwell, Architectural Digest, and The Gentlewoman. She believes good design should be accessible, sustainable, and deeply human.</p>
+      </div>
+      <div class="team-card">
+        <div class="team-avatar">JO</div>
+        <h3>James Okonkwo</h3>
+        <div class="team-role">Architecture Editor</div>
+        <p class="team-bio">A licensed architect with a focus on passive design and affordable housing, James brings technical depth to our coverage. He's taught at the university level and consults on residential projects across three continents.</p>
+      </div>
+      <div class="team-card">
+        <div class="team-avatar">PN</div>
+        <h3>Priya Nair</h3>
+        <div class="team-role">Materials & Sustainability Lead</div>
+        <p class="team-bio">Priya is a building scientist and materials specialist. She's spent a decade researching embodied carbon, healthy building materials, and circular design. She writes our popular "Honest Guide" series.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDITORIAL NOTE -->
+  <div class="editorial-note">
+    <p>“We don't publish content to fill a content calendar. Every article starts with a question we genuinely wanted to answer. That curiosity is what keeps our work honest.”</p>
+    <div class="attribution">— Elena Marchetti, Editor-in-Chief</div>
+  </div>
+
+  <!-- ABOUT / CONTACT / PRIVACY / TERMS / COOKIE (Reused from home) -->
+  <div class="info-sections">
+    <div>
+      <h4>About</h4>
+      <p>Gableline Home Concepts is an independent editorial publication covering interior design, architecture, and the built environment. We publish practical guides, critical essays, and expert advice.</p>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <p>Have a story tip or question? Write to us at <a href="mailto:hello@gablelinehome.com" style="color:#9b7b5c;">hello@gablelinehome.com</a>. We read every message.</p>
+    </div>
+    <div>
+      <h4>Privacy</h4>
+      <p>We respect your privacy. We collect only the data necessary to improve your reading experience. Read our full privacy policy.</p>
+    </div>
+    <div>
+      <h4>Terms & Cookie</h4>
+      <p>By using this site you agree to our terms of service. We use minimal cookies for analytics and preferences.</p>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="editorial-footer">
+    <div class="footer-col">
+      <h4>Gableline</h4>
+      <ul>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="#">Editorial Policy</a></li>
+        <li><a href="privacy.html">Privacy</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Categories</h4>
+      <ul>
+        <li><a href="categories.html">Interior Design</a></li>
+        <li><a href="categories.html">Architecture</a></li>
+        <li><a href="categories.html">Home Design</a></li>
+        <li><a href="categories.html">Materials</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Guides</h4>
+      <ul>
+        <li><a href="#">Small Spaces</a></li>
+        <li><a href="#">Kitchens</a></li>
+        <li><a href="#">Lighting</a></li>
+        <li><a href="#">Renovation</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Follow</h4>
+      <ul>
+        <li><a href="#">Instagram</a></li>
+        <li><a href="#">Pinterest</a></li>
+        <li><a href="#">LinkedIn</a></li>
+        <li><a href="#">RSS</a></li>
+      </ul>
+    </div>
+  </footer>
+  <div class="copyright">
+    © 2025 Gableline Home Concepts. All rights reserved. Built with care for readers who love good design.
+  </div>
+</div>
+</body>
+</html>
